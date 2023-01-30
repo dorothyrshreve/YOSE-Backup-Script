@@ -1,0 +1,30 @@
+---
+AGOL_SOURCE:
+ USERNAME: 
+ PASSWORD: 
+ TOKEN_URL: https://www.arcgis.com/sharing/generateToken
+ REFERER: www.arcgis.com
+ GIS_URL: https://nps.maps.arcgis.com
+
+PORTAL_SOURCE:
+ USERNAME: 
+ PASSWORD: ''
+ TOKEN_URL: https://gisportal.nps.gov/portal/sharing/rest/generateToken
+ REFERER: gisportal.nps.gov/portal
+ GIS_URL: https://gisportal.nps.gov/portal
+
+# enter ssl cert file path
+SSL_CERT: ... \doi_root.cer
+
+# agol / portal backup script info
+BACKUP_LOCATIONS:
+
+ # put the full file path of the download group csv
+ GROUP_CSV: ... \DownloadGroups.csv
+
+ # put the full file path to a folder where LOGS should be stored
+ LOG_FOLDER: ... \LOGS
+
+ # full file path where downloads should land
+ DOWNLOAD_FOLDER: ... \AGOL_PORTAL_Backups
+
